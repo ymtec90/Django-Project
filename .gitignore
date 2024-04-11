@@ -1,1 +1,86 @@
-/venv
+# Python virtual environment #
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django files #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Backup files #
+*.bak
+
+# Python files#
+*.py[cod]
+*$py.class
+
+# Distibution / packaging #
+.Python build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.eggs-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Installer logs #
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypotesis/
+
+# mypy #
+.mypy_cache/
+
+# Others #
+__pycache__/
+*.pyc
+__localcode
+.DS_Store
+local_settings.py
+_local_settings.py
+static/
+
+# celery #
+celerybeat-schedule.* 
+
+# SageMath parsed files #
+*.sage.py
+
+# sftp configuration file 
+sftp-config.json 
+
+# Package control specific files Package 
+Control.last-run 
+Control.ca-list 
+Control.ca-bundle
+Control.system-ca-bundle
+GitHub.sublime-settings
